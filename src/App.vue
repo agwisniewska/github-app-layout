@@ -1,28 +1,30 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+			<GithubApp/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import GithubApp from './components/GithubApp.vue'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  export default {
+    name: 'app',
+    components: {
+      GithubApp
+    }
   }
-}
 </script>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+	body {
+		font-family: "Open Sans", sans-serif;
+		height: 100vh;
+		background: url("./assets/background.jpg") no-repeat center center fixed;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+
+	}
 </style>

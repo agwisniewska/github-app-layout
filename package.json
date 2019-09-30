@@ -7,10 +7,12 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^2.6.5",
+    "core-js": "^3.2.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
     "node-sass": "^4.9.0",
